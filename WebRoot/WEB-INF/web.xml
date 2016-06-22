@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>DealWithPulishedNoteService</servlet-name>
+    <servlet-class>service.DealWithPulishedNoteService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserRegisterService</servlet-name>
+    <servlet-class>service.UserRegisterService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountValidateService</servlet-name>
+    <servlet-class>service.AccountValidateService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPublishedNoteService</servlet-name>
+    <servlet-class>service.GetPublishedNoteService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetArticleService</servlet-name>
+    <servlet-class>service.GetArticleService</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DealWithPublishedArticle</servlet-name>
+    <servlet-class>service.DealWithPublishedArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ImageUploadService</servlet-name>
+    <servlet-class>service.ImageUploadService</servlet-class>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>DealWithPulishedNoteService</servlet-name>
+    <url-pattern>/DealWithPulishedNoteServer.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserRegisterService</servlet-name>
+    <url-pattern>/UserRegisterService.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountValidateService</servlet-name>
+    <url-pattern>/AccountValidateService.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPublishedNoteService</servlet-name>
+    <url-pattern>/GetPublishedNote.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetArticleService</servlet-name>
+    <url-pattern>/GetArticleService.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealWithPublishedArticle</servlet-name>
+    <url-pattern>/DealWithPublishedArticle.service</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ImageUploadService</servlet-name>
+    <url-pattern>/ImageUploadService.service</url-pattern>
+  </servlet-mapping>
+
+</web-app>
